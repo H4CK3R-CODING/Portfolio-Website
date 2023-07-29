@@ -1,0 +1,1309 @@
+/* Universal CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation CSS */
+
+.navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(255, 0, 0); */
+    background-color: rgb(27, 2, 78);
+    height: 75px;
+}
+
+.nav-left {
+    font-size: 1.7rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    width: 59px;
+    border-radius: 40px;
+    margin: 0px 10px;
+}
+
+.nav-right ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.nav-right ul a {
+    text-decoration: none;
+    margin: 0 23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+.nav-right a:hover {
+    color: #00f1ff;
+}
+
+/* Hide Humberger */
+
+.navigation{
+    display: none;
+}
+
+
+/* Adding Hover underline animation */
+
+
+.homi a {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.homi a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.homi a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Body CSS */
+
+.section-first {
+    display: flex;
+    height: 585px;
+}
+
+.section-first+hr {
+    border: 0px;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 18px 100px;
+}
+
+.left {
+    width: 50vw;
+    margin-left: 186px;
+    margin-top: 186px;
+    font-size: 2.8rem;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.right {
+    width: 50vw;
+}
+
+.right img {
+    width: 650px;
+    margin: 73px 53px;
+    border-radius: 23px;
+}
+
+.btn button {
+    padding: 10px;
+    color: white;
+    background-color: #000021;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.btn button:hover {
+    background-color: rgb(70, 8, 192);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/* New CSS is Here */
+
+
+.section-second {
+    height: 1300px;
+}
+
+.section-second h1 {
+    display: block;
+    margin: 75px auto;
+    width: 240px;
+    font-size: 2.2rem;
+}
+
+.section-second hr {
+    border: 0px;
+    background: #9c97f1;
+    height: 2px;
+    margin: 1px 0px;
+}
+
+/* achieve_1 CSS starts here*/
+
+.achieve_1 {
+    height: 392px;
+}
+
+.achieve_1 .achieve_left {
+    width: 49%;
+    float: left;
+    height: 325px;
+}
+
+.achieve_1 .achieve_left h2 {
+    display: block;
+    margin: 50px auto;
+    width: 484px;
+    text-align: center;
+}
+
+.achieve_1 .achieve_left p {
+    margin: 0px 90px;
+    text-align: center;
+}
+
+.achieve_1 .achieve_right {
+    width: 50%;
+    float: right;
+    height: 325px;
+}
+
+.achieve_1 .achieve_right img {
+    display: block;
+    width: 500px;
+    height: 325px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+/* .achieve_2 starts here */
+
+.achieve_2 {
+    height: 392px;
+}
+
+.achieve_2 .achieve_right {
+    width: 49%;
+    float: right;
+    height: 325px;
+}
+
+.achieve_2 .achieve_right h2 {
+    display: block;
+    margin: 50px auto;
+    width: 484px;
+    text-align: center;
+}
+
+.achieve_2 .achieve_right p {
+    margin: 0px 90px;
+    text-align: center;
+}
+
+.achieve_2 .achieve_left {
+    width: 50%;
+    float: left;
+    height: 325px;
+}
+
+.achieve_2 .achieve_left img {
+    display: block;
+    width: 500px;
+    height: 325px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+/* .achieve_3 starts here */
+
+.achieve_3 {
+    height: 392px;
+}
+
+.achieve_3 .achieve_left {
+    width: 49%;
+    float: left;
+    height: 325px;
+}
+
+.achieve_3 .achieve_left h2 {
+    display: block;
+    margin: 50px auto;
+    width: 484px;
+    text-align: center;
+}
+
+.achieve_3 .achieve_left p {
+    margin: 0px 90px;
+    text-align: center;
+}
+
+.achieve_3 .achieve_right {
+    width: 50%;
+    float: right;
+    height: 325px;
+}
+
+.achieve_3 .achieve_right img {
+    display: block;
+    width: 500px;
+    height: 325px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+
+/* Footer CSS */
+
+footer {
+    /* background: #00ff15; */
+    background: #0e0e1a;
+    clear: both;
+}
+
+.footers {
+    padding: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-1 {
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+}
+
+.footers>div {
+    width: 200px;
+}
+
+.footers>div>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.footers>div>ul>li {
+    margin: 9px;
+    list-style: none;
+}
+
+.rights{
+    text-align: center;
+    padding: 26px 0;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.footer-4 img {
+    width: 26px;
+    /* height: 12px; */
+}
+
+.footer-4 li {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+    .right img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1517px) and (max-width: 1560px) {
+    .left {
+        width: 37vw;
+    }
+}
+
+@media only screen and (min-width: 1420px) and (max-width: 1517px) {
+    .left {
+        width: 34vw;
+    }
+
+    .right img {
+        width: 590px;
+    }
+}
+
+@media only screen and (min-width: 1268px) and (max-width: 1420px) {
+    .left {
+        width: 28vw;
+    }
+
+    .right img {
+        width: 530px;
+        margin: 100px 94px;
+    }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1268px) {
+    .left {
+        width: 31vw;
+        margin-left: 151px;
+        margin-top: 67px;
+    }
+
+    .right img {
+        width: 448px;
+        margin: 67px 52px;
+    }
+
+    .section-first {
+        height: 475px;
+    }
+
+    .achieve_1 {
+        height: 426px;
+    }
+
+    .achieve_2 {
+        height: 426px;
+    }
+
+    .achieve_3 {
+        height: 426px;
+    }
+
+    .achieve_1 .achieve_left h2 {
+        display: block;
+        margin: 30px auto;
+        width: 329px;
+        text-align: center;
+    }
+
+    .achieve_3 .achieve_left h2 {
+        width: 476px;
+    }
+
+    .section-second {
+        height: 1340px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .nav-left{
+        width: 310px;
+        position: absolute;
+        top: 7px;
+        left: 19px;
+    }
+    /* .navigation{
+        display: block;
+        width: 800px;
+    } */
+    .nav-right{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    .section-first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1033px;
+    }
+    .left{
+        display: block;
+        width: 470px;
+        margin: 12px auto;
+    }
+    .right{
+        display: block;
+        width: 772px;
+        margin: 12px auto;
+    }
+    .right img{
+        width: 650px;
+        /* margin: 73px 53px; */
+        border-radius: 23px;
+    }
+
+    .section-second {
+        height: 2300px;
+    }
+
+    .achieve_1 {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_1 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: 700px;
+        display: block;
+        width: 700px;
+        margin: 5px auto;
+    }
+
+    .achieve_1 .achieve_right {
+        width: 700px;
+        /* float: right; */
+        height: 325px;
+        margin: 0px auto;
+    }
+
+    .achieve_2 {
+        height: 644px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_2 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        position: relative;
+        top: 270px;
+        left: 0;
+        height: 325px;
+        margin: 0px auto;
+        width: 700px;
+    }
+    
+    .achieve_2 .achieve_right {
+        /* width: 50%; */
+        /* float: right; */
+        width: 700px;
+        position: relative;
+        top: -390px;
+        left: 0;
+        display: block;
+        /* width: 0px; */
+        margin: 5px auto;
+    }
+    
+    .achieve_3 {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .achieve_3 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 700px;
+        margin: 5px auto;
+    }
+    
+    .achieve_3 .achieve_right {
+        width: 700px;
+        /* width: 50%; */
+        /* float: right; */
+        height: 325px;
+        margin: 0px auto;
+    }
+}
+
+
+@media only screen and (min-width: 445px) and (max-width: 768px){
+    .nav-left{
+        width: 425px;
+        position: absolute;
+        top: 7px;
+        left: 19px;
+    }
+    /* .navigation{
+        display: block;
+        width: 800px;
+    } */
+    .nav-right{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    .section-first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 885px;
+    }
+    .left{
+        display: block;
+        width: 463px;
+        margin: 12px auto;
+    }
+    .right{
+        width: 425px;
+    }
+    .right img{
+        display: block;
+        width: 425px;
+        margin: 90px auto;
+        /* width: 320px; */
+        /* margin: 73px 53px; */
+        border-radius: 23px;
+    }
+
+    .section-second {
+        height: 2400px;
+    }
+
+    .achieve_1 {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_1 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 445px;
+        margin: 5px auto;
+    }
+
+    .achieve_1 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 425px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_left p {
+        /* margin: 0px 50px;
+        text-align: center; */
+        display: block;
+        margin: auto;
+        width: 350px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_right {
+        width: 425px;
+        /* float: right; */
+        height: 325px;
+        margin: 98px auto;
+    }
+
+    .achieve_1 .achieve_right img {
+        display: block;
+        width: 400px;
+        height: 259px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 {
+        height: 726px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_2 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        position: relative;
+        top: 318px;
+        left: 0;
+        height: 325px;
+        margin: 0px auto;
+        width: 425px;
+    }
+
+    .achieve_2 .achieve_left img {
+        display: block;
+        width: 400px;
+        height: 325px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 .achieve_right {
+        /* width: 50%; */
+        /* float: right; */
+        width: 425px;
+        position: relative;
+        top: -390px;
+        left: 0;
+        display: block;
+        /* width: 0px; */
+        margin: 5px auto;
+    }
+
+    .achieve_2 .achieve_right h2 {
+        display: block;
+        margin: 50px auto;
+        width: 425px;
+        text-align: center;
+    }
+
+    .achieve_2 .achieve_right p {
+        margin: 0px 50px;
+        text-align: center;
+    }
+    
+    
+    .achieve_3 {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .achieve_3 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 425px;
+        margin: 5px auto;
+        /* margin-top: 230px; */
+    }
+
+    .achieve_3 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 425px;
+        text-align: center;
+    }
+
+    .achieve_3 .achieve_left p {
+        margin: 0px 50px;
+        text-align: center;
+    }
+    
+    .achieve_3 .achieve_right {
+        width: 425px;
+        /* width: 50%; */
+        /* float: right; */
+        height: 325px;
+        margin: 0px auto;
+    }
+
+    .achieve_3 .achieve_right img {
+        display: block;
+        width: 400px;
+        height: 325px;
+        margin: auto;
+        border-radius: 30px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 445px){
+    .nav-left{
+        width: 190px;
+        position: absolute;
+        top: 7px;
+        left: 19px;
+    }
+    /* .navigation{
+        display: block;
+        width: 800px;
+    } */
+    .nav-right{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    .section-first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 970px;
+    }
+    .left{
+        display: block;
+        width: 228px;
+        margin: 12px auto;
+    }
+    .right{
+        width: 350px;
+    }
+    .right img{
+        display: block;
+        width: 350px;
+        margin: 60px auto;
+        /* margin: 73px 53px; */
+        border-radius: 23px;
+    }
+
+    .section-second {
+        height: 2350px;
+    }
+
+    .achieve_1 {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_1 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 350px;
+        margin: 5px auto;
+    }
+
+    .achieve_1 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 350px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_left p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 350px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_right {
+        width: 350px;
+        /* float: right; */
+        height: 325px;
+        margin: 98px auto;
+    }
+
+    .achieve_1 .achieve_right img {
+        display: block;
+        width: 350px;
+        height: 259px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 {
+        height: 435px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_2 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        position: relative;
+        top: 318px;
+        left: 0;
+        height: 325px;
+        margin: 0px auto;
+        width: 350px;
+    }
+
+    .achieve_2 .achieve_left img {
+        display: block;
+        width: 350px;
+        height: 325px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 .achieve_right {
+        /* width: 50%; */
+        /* float: right; */
+        width: 350px;
+        position: relative;
+        top: -390px;
+        left: 0;
+        display: block;
+        /* width: 0px; */
+        margin: 5px auto;
+    }
+
+    .achieve_2 .achieve_right h2 {
+        display: block;
+        margin: 50px auto;
+        width: 350px;
+        text-align: center;
+    }
+
+    .achieve_2 .achieve_right p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 350px;
+        text-align: center;
+    }
+    
+    
+    .achieve_3 {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .achieve_3 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 350px;
+        margin: auto;
+        margin-top: 230px;
+    }
+
+    .achieve_3 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 350px;
+        text-align: center;
+    }
+
+    .achieve_3 .achieve_left p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 350px;
+        text-align: center;
+    }
+    
+    .achieve_3 .achieve_right {
+        width: 350px;
+        /* width: 50%; */
+        /* float: right; */
+        height: 325px;
+        margin: 0px auto;
+    }
+
+    .achieve_3 .achieve_right img {
+        display: block;
+        width: 350px;
+        height: 325px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .footers{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rights{
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .nav-left{
+        width: 228px;
+        position: absolute;
+        top: 7px;
+        left: 19px;
+    }
+    /* .navigation{
+        display: block;
+        width: 800px;
+    } */
+    .nav-right{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    .section-first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 970px;
+    }
+    .left{
+        display: block;
+        width: 228px;
+        margin: 12px auto;
+    }
+    .right{
+        width: 300px;
+    }
+    .right img{
+        display: block;
+        width: 300px;
+        margin: 60px auto;
+        /* margin: 73px 53px; */
+        border-radius: 23px;
+    }
+
+    .section-second {
+        height: 2350px;
+    }
+
+    .achieve_1 {
+        height: 855px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_1 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 300px;
+        margin: 5px auto;
+    }
+
+    .achieve_1 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_left p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_right {
+        width: 300px;
+        /* float: right; */
+        height: 300px;
+        margin: 98px auto;
+    }
+
+    .achieve_1 .achieve_right img {
+        display: block;
+        width: 300px;
+        height: 259px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 {
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_2 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        position: relative;
+        top: 318px;
+        left: 0;
+        height: 325px;
+        margin: 0px auto;
+        width: 300px;
+    }
+
+    .achieve_2 .achieve_left img {
+        display: block;
+        width: 300px;
+        height: 263px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 .achieve_right {
+        /* width: 50%; */
+        /* float: right; */
+        width: 300px;
+        position: relative;
+        top: -390px;
+        left: 0;
+        display: block;
+        /* width: 0px; */
+        margin: 5px auto;
+    }
+
+    .achieve_2 .achieve_right h2 {
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_2 .achieve_right p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+    
+    
+    .achieve_3 {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .achieve_3 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 300px;
+        margin: auto;
+        margin-top: 230px;
+    }
+
+    .achieve_3 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_3 .achieve_left p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .achieve_3 .achieve_right {
+        width: 300px;
+        /* width: 50%; */
+        /* float: right; */
+        height: 325px;
+        margin: 0px auto;
+    }
+
+    .achieve_3 .achieve_right img {
+        display: block;
+        width: 300px;
+        height: 325px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .footers{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .rights{
+        width: 300px;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .nav-left{
+        width: 228px;
+        position: absolute;
+        top: 7px;
+        left: 19px;
+    }
+    /* .navigation{
+        display: block;
+        width: 800px;
+    } */
+    .nav-right{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    .section-first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 970px;
+    }
+    .left{
+        display: block;
+        width: 228px;
+        margin: 12px auto;
+    }
+    .right{
+        width: 300px;
+    }
+    .right img{
+        display: block;
+        width: 300px;
+        margin: 60px auto;
+        /* margin: 73px 53px; */
+        border-radius: 23px;
+    }
+
+    .section-second {
+        height: 2350px;
+    }
+
+    .achieve_1 {
+        height: 855px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_1 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 300px;
+        margin: 5px auto;
+    }
+
+    .achieve_1 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_left p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_1 .achieve_right {
+        width: 300px;
+        /* float: right; */
+        height: 300px;
+        margin: 98px auto;
+    }
+
+    .achieve_1 .achieve_right img {
+        display: block;
+        width: 300px;
+        height: 259px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 {
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achieve_2 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        position: relative;
+        top: 318px;
+        left: 0;
+        height: 325px;
+        margin: 0px auto;
+        width: 300px;
+    }
+
+    .achieve_2 .achieve_left img {
+        display: block;
+        width: 300px;
+        height: 263px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .achieve_2 .achieve_right {
+        /* width: 50%; */
+        /* float: right; */
+        width: 300px;
+        position: relative;
+        top: -390px;
+        left: 0;
+        display: block;
+        /* width: 0px; */
+        margin: 5px auto;
+    }
+
+    .achieve_2 .achieve_right h2 {
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_2 .achieve_right p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+    
+    
+    .achieve_3 {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .achieve_3 .achieve_left {
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+        width: 300px;
+        margin: auto;
+        margin-top: 230px;
+    }
+
+    .achieve_3 .achieve_left h2 {
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .achieve_3 .achieve_left p {
+        /* margin: 0px 50px; */
+        display: block;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .achieve_3 .achieve_right {
+        width: 300px;
+        /* width: 50%; */
+        /* float: right; */
+        height: 325px;
+        margin: 0px auto;
+    }
+
+    .achieve_3 .achieve_right img {
+        display: block;
+        width: 300px;
+        height: 325px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .footers{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .rights{
+        width: 300px;
+        margin: auto;
+    }
+}
